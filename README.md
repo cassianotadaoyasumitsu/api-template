@@ -5,7 +5,8 @@
 [![Swagger documentation](https://img.shields.io/badge/swagger_documentation-84e92c.svg?&logo=swagger&logoColor=black)](docs/SWAGGER.md)
 
 # Rails API Boilerplate
-![cover](docs/cover.png)
+
+[//]: # (![cover]&#40;docs/cover.png&#41;)
 
 # How to Works?
 ```mermaid
@@ -57,7 +58,7 @@ flowchart TD
 
 -  Run the server
    ```bash
-   ./bin/dev
+   rails s
    ```
 
 ## CLIENT ID AND SECRET
