@@ -85,3 +85,26 @@ Exemple:
 Client ID: HTCoZAN6NXk_jvSNlyBelBQcCePt2aGrCzN-D4IXcoE
 Client Secret: zOrTDZIqc6lt6RtkpJ9xu0XzDPJiM0OTIq5ALCp_ObY
 ```
+
+## FRONTEND
+- Create Vite + React App
+```bash
+npx create-vite
+
+Need to install the following packages:
+create-vite@5.5.3
+Ok to proceed? (y) y
+
+✔ Project name: … frontend
+✔ Select a framework: › React
+✔ Select a variant: › TypeScript
+
+Scaffolding project in /Users/cassiano.yasumitsu/RubymineProjects/api-template/frontend...
+
+Done. Now run:
+
+  cd frontend
+  npm install
+  npm install axios
+  npm run dev
+```
