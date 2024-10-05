@@ -3,10 +3,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby '3.1.2'
+ruby '3.2.2'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
-gem 'rails', '~> 7.0', '>= 7.0.4'
+gem "rails", "~> 7.1.4"
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
@@ -43,7 +43,7 @@ group :development, :test do
   gem 'debug', platforms: %i[ mri mingw x64_mingw ]
 
   # A library for generating fake data [https://github.com/faker-ruby/faker]
-  gem 'faker', git: 'https://github.com/faker-ruby/faker.git', branch: 'master'
+  gem 'faker'
 
   # Pretty print your Ruby objects [https://github.com/awesome-print/awesome_print]
   gem 'awesome_print'
