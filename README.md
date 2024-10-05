@@ -87,7 +87,7 @@ Client ID: HTCoZAN6NXk_jvSNlyBelBQcCePt2aGrCzN-D4IXcoE
 Client Secret: zOrTDZIqc6lt6RtkpJ9xu0XzDPJiM0OTIq5ALCp_ObY
 ```
 
-## FRONTEND
+## FRONTEND - VITE + REACT (no need if you clone the repository)
 - Create Vite + React App
 ```bash
 npx create-vite
@@ -99,8 +99,13 @@ Ok to proceed? (y) y
 ✔ Project name: … frontend
 ✔ Select a framework: › React
 ✔ Select a variant: › TypeScript
+```
 
-Scaffolding project in /Users/cassiano.yasumitsu/RubymineProjects/api-template/frontend...
+### FRONTEND CONFIGURATION IF YOU CLONE THE REPOSITORY
+- If you clone the repository, you need to go to the frontend folder:
+
+```bash
+cd frontend
 
 Done. Now run:
 
