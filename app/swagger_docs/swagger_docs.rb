@@ -40,20 +40,20 @@ class SwaggerDocs
 
     info do
       key :version, '1.0.0'
-      key :title, 'Rails API Boilerplate'
-      key :description, 'Rails API Boilerplate'
+      key :title, 'Rails API Cassiano Template'
+      key :description, 'Rails API Cassiano Template'
 
       contact do
-        key :name, 'SHFT'
-        key :url, 'https://shft.co'
-        key :email, 'contact@shft.co'
+        key :name, 'Cassiano Tadao Yasumitsu'
+        key :url, 'https://usuarioincomum.com'
+        key :email, 'cassiano@usuarioincomum.com'
       end
     end
 
     server do
       url_options = Rails.application.routes.default_url_options
       key :url, "#{url_options[:protocol]}://#{url_options[:host]}"
-      key :description, 'Rails API Boilerplate'
+      key :description, 'Rails API Cassiano Template'
     end
   end
 

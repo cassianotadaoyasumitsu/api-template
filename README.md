@@ -59,3 +59,29 @@ flowchart TD
    ```bash
    ./bin/dev
    ```
+
+## CLIENT ID AND SECRET
+- Create a new application in the [OAuth2 Provider](
+- Add the `CLIENT_ID` and `CLIENT_SECRET` to the `.env` file.
+```bash
+rails c
+app = Doorkeeper::Application.create(name: "API", redirect_uri: "http://localhost:3000")
+
+=> #<Doorkeeper::Application:0x00000001066b69b0
+ id: "03e15fef-be23-4163-ba66-04d3365425b6",
+ name: "API",
+ uid: "HTCoZAN6NXk_jvSNlyBelBQcCePt2aGrCzN-D4IXcoE",
+ secret: "[FILTERED]",
+ redirect_uri: "http://localhost:3000",
+ scopes: "",
+ confidential: true,
+ created_at: Sat, 05 Oct 2024 09:11:48.155644000 UTC +00:00,
+ updated_at: Sat, 05 Oct 2024 09:11:48.155644000 UTC +00:00>
+
+puts "Client ID: #{app.uid}"
+puts "Client Secret: #{app.secret}"
+
+Exemple:
+Client ID: HTCoZAN6NXk_jvSNlyBelBQcCePt2aGrCzN-D4IXcoE
+Client Secret: zOrTDZIqc6lt6RtkpJ9xu0XzDPJiM0OTIq5ALCp_ObY
+```
